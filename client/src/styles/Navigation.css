@@ -1,0 +1,27 @@
+/* navigation.css */
+
+nav {
+    background-color: #343a40; /* Dark gray background */
+    color: #ffffff; /* White text */
+    padding: 15px;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    justify-content: space-around; /* Space out links */
+}
+
+nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #495057; /* Darker gray on hover */
+}

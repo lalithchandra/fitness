@@ -1,0 +1,119 @@
+/* Scoped to BMI Calculator only */
+.body-bmi {
+    margin: 0;
+    height: auto;
+    padding: 20px;
+    background: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .form-bmi {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #f57418;
+    box-shadow: 0 0 20px #f57418;
+    margin-top: 20px;
+  }
+  
+  .form-bmi:hover {
+    box-shadow: 0 0 30px #f57418;
+    transition: 0.4s;
+    transform: scale(1.02);
+  }
+  
+  .row-one-bmi, .row-two-bmi {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .text-bmi {
+    font-size: 16px;
+    color: #fff;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .text-input-bmi {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #4d4d4d;
+    border: none;
+    color: #fff;
+    flex: 1;
+  }
+  
+  .text-input-bmi:hover, .text-input-bmi:focus {
+    background-color: #666;
+    outline: none;
+  }
+  
+  .dropdown-bmi {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border: none;
+    flex: 1;
+  }
+  
+  .dropdown-bmi:hover, .dropdown-bmi:focus {
+    background-color: #666;
+    outline: none;
+  }
+  
+  #submit-bmi {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f57418;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px auto 0 auto;
+    display: block;
+    cursor: pointer;
+  }
+  
+  #submit-bmi:hover {
+    background-color: #d76614;
+  }
+  
+  .heading {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #f57418;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h3 b {
+    font-size: 32px;
+    color: #f57418;
+  }
+  

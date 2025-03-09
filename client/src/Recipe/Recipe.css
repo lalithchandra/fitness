@@ -1,0 +1,114 @@
+.recipe{
+    background-color: #1e1e1e; /* Dark background for the entire page */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .recipes-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .recipe-card {
+      z-index: 100;
+      width: calc(25% - 40px); /* Adjusted width to fit 4 cards in a row */
+      margin: 20px;
+      padding: 20px;
+      color: black;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center content horizontally */
+      justify-content: center; /* Center content vertically */
+      background-color: #fff; /* Example background color */
+      border-radius: 8px; /* Rounded corners for cards */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+      max-width: 300px;
+      
+    }
+    .recipe-card:hover {
+      box-shadow: 0 0 20px 3px #f57418;
+    }
+    
+    .recipe-card img {
+      max-width: 100%; /* Set maximum width for the image */
+      height: auto; /* Maintain aspect ratio */
+    }
+    
+    
+    @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+    
+    
+    h3,p {
+      color: black;
+    }
+    .rsearch {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    /* Update the color scheme for the search bar */
+    .rsearchbar {
+      color: black;
+      padding: 10px;
+      width: 250px;
+      border: solid #f57418 1px; /* Orange border for contrast */
+      border-radius: 5px 0px 0px 5px;
+      -webkit-transition: box-shadow linear 0.2s;
+      transition: box-shadow linear 0.2s, width 500ms ease;
+    }
+    
+    .rsearchbar:focus {
+      outline: none;
+      border-color: #f57418;
+      box-shadow: 0 0 10px #f57418;
+      width: 280px;
+    }
+    
+    .rsearchbar:hover {
+      border-color: #f57418;
+      box-shadow: 0 0 20px #f57418;
+      width: 280px;
+    }
+    
+    /* Update button color for better contrast */
+    .rsearch_button {
+      height: 45px;
+      margin-left: -4px;
+      width: 70px;
+      border: solid #f57418 1px; /* Orange border */
+      border-radius: 5px;
+      border-left: 0;
+      transition: 400ms ease-out;
+    }
+    
+    /* On hover, change the background color to orange for contrast */
+    .rsearch_button:hover {
+      background-color: #f57418;
+      border-color: #f57418;
+    }
+    .fa {
+      color: #1e1e1e;
+    }
+  
+    .exercise-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .exercise-card {
+      max-width: 500px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #333; /* Example background color */
+      border-radius: 8px;
+      text-align: left;
+    }
+    
+    /* Add more styles as needed */
+    
